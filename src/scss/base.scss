@@ -1,0 +1,154 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0
+}
+
+body {
+  font-size: 16px;
+  background-color: #edf2f6;
+}
+
+html {
+  overflow-x: hidden
+}
+
+a:focus {
+  outline: 0
+}
+
+a:active {
+  outline: 0
+}
+
+ul {
+  list-style: none
+}
+
+a {
+  outline: 0
+}
+
+img {
+  border: 0
+}
+
+p {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0
+}
+
+.clear {
+  clear: both;
+  height: 0;
+  line-height: 0;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0
+}
+
+.admin-main {
+  padding: 0 20px;
+}
+
+
+.bg-white {
+  background: #fff;
+}
+
+.fr {
+  float: right;
+}
+
+.fr-r-10 {
+  margin-right: 10px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+
+.is-center {
+  text-align: center;
+}
+
+
+.tip {
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.setting {
+  h2 {
+    text-align: left;
+    background: #ffffff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+}
+
+.visitor-form {
+  margin-top: 20px;
+  border-radius: 5px;
+  background: #fff;
+  padding: 20px;
+
+  .el-input {
+    width: 70%;
+  }
+
+  .el-form-item {
+    margin-bottom: 30px;
+  }
+
+  .el-form-item__label {
+    line-height: 50px;
+  }
+
+  .el-form-item__content {
+    line-height: 50px;
+
+    .el-input__inner {
+      line-height: 50px;
+    }
+  }
+
+  .el-textarea {
+    width: 70%;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+}
+
+.visitor-table {
+
+  border-radius: 4px;
+
+  .search-toolbar {
+    text-align: center;
+    vertical-align: middle;
+    padding: 20px 0;
+    margin-bottom: 10px;
+  }
+
+  .el-table .el-table-th-bg {
+    background-color: #f6f8f9 !important;;
+    color: #9a9a9a;
+  }
+
+  .el-table .el-table-th {
+    background-color: #f6f8f9 !important;;
+    color: #9a9a9a;
+  }
+
+}
